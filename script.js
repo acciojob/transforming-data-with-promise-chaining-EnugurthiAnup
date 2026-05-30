@@ -9,30 +9,30 @@ start.addEventListener('click' ,function () {
 		},2000)
 	})	
 	first.then((val)=>{
-		output.innerText = `Result:${val}`
+		output.innerText = `Result: ${val}`
 		return val
 	}).then((val)=>{
 		val = val*2
 		setTimeout(()=>{
-		output.innerText = `Result:${val}`
+		output.innerText = `Result: ${val}`
 		},3000)	
 	return val
 	}).then((val)=>{
 		val = val-3
 		setTimeout(()=>{
-		output.innerText = `Result:${val}`
+		output.innerText = `Result: ${val}`
 		},4000)	
 	return val
 	}).then((val)=>{
 		val = val/2
 		setTimeout(()=>{
-		output.innerText = `Result:${val}`
+		output.innerText = `Result: ${val}`
 		},5000)	
 	return val
 	}).then((val)=>{
 		val = val + 10
 		setTimeout(()=>{
-		output.innerText = `Final Result:${val}`
+		output.innerText = `Final Result: ${val}`
 		},6000)	
 	})
 	
